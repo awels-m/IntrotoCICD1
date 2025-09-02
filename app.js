@@ -4,8 +4,9 @@ const app = express();
 
 // Basic routes
 app.get('/', (req, res) => {
-  res.send('Hello The Awels! CI · CD ');
+  res.send('Hello World!');
 });
+
 
 // A health route that's nice for uptime checks and tests
 app.get('/health', (req, res) => {
